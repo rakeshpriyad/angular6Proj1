@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
-const routes: Routes = [];
+import { NewCmpComponent } from './new-cmp/new-cmp.component';
+const routes: Routes = [
+  {
+     path: 'new-cmp',
+     component: NewCmpComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
